@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Effect</title>
+
+    <link rel="shortcut icon" href="./account.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            height: 100vh;
+            background: linear-gradient(45deg,#777,#342473);
+        }
+        .div1{
+            height: 220px;
+            width: 260px;
+            background-color: dodgerblue;
+            padding: 20px;
+            text-align: center;
+            transition: 0.5s;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .div1:hover{
+            height: 330px;
+        }
+        .two{
+            margin-top: 15px;
+        }
+        .three{
+            margin-top: 15px;
+        }
+        .div2{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 220px;
+            width: 260px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            transition: 0.5s;
+            border-radius: 10px;
+            line-height: 25px;
+            margin: 100px 0px;
+        }
+        .div2:hover{
+            height: 320px;
+        }
+        .img{
+            position: absolute;
+            top: 20px;
+            width: 200px;
+            height: 150px;
+            transition: 0.5s;
+            border-radius: 12px;
+            background-color: brown;
+            overflow: hidden;
+            box-shadow: 0px 2px 20px black;
+        }
+        .img img{
+            width: 200px;
+            object-fit: cover;
+            height: 150px;
+            overflow: hidden;
+        }
+        .div2:hover .img{
+            top: -70px;
+            scale: 0.9;
+        }
+        .div2 .content{
+            position: absolute;
+            top: 160px;
+            height: 50px;
+            transition: 0.5s;
+            padding: 20px;
+            overflow: hidden;
+        }
+        .div2:hover .content{
+            top: 70px;
+            height: 240px;
+        }
+        .div2 .content p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .div2 .content h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 2px 0px;
+        }
+        .div2 .content button{
+            padding: 8px 16px;
+            outline: none;
+            border: 2px solid blue;
+            border-radius: 6px;
+            margin: 6px;
+            background: transparent;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .div2 .content button:hover{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="div2">
+        <div class="img">
+            <img src="./DSC_4994.JPG" alt="">
+        </div>
+        <div class="content">
+            <h3>Frontend Developer</h3>
+            <p>Hai my name is Satyanarayana from katrenikona. Now I am pursueing B.Tech 4th Year in the stream of Mechanical Engineering in Aditya College Of Engineering</p>
+            <button>Read more</button>
+        </div>
+    </div>
+    <div class="div2">
+        <div class="img">
+            <img src="./1678566219856.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Owl Coder</h3>
+            <p>Hai my name is Dileep Kumar from Pydapala. Now I am pursueing B.Tech 4th Year in the stream of Mechanical Engineering in Aditya College Of Engineering</p>
+            <button>Read more</button>
+        </div>
+    </div>
+    <div class="div2">
+        <div class="img">
+            <img src="./WhatsApp Image 2023-06-17 at 17.45.57.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Frontend Developer</h3>
+            <p>Hai my name is Satyanarayana from vetlapalem. Now I am pursueing B.Tech 4th Year in the stream of Mechanical Engineering in Aditya College Of Engineering</p>
+            <button>Read more</button>
+        </div>
+    </div>
+    <div class="div2">
+        <div class="img">
+            <img src="./WhatsApp Image 2023-06-17 at 17.50.34.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Owl Coder</h3>
+            <p>Hai my name is Ch. Nagendra from kakinada. Now I am pursueing B.Tech 4th Year in the stream of Mechanical Engineering in Aditya College Of Engineering</p>
+            <button>Read more</button>
+        </div>
+    </div>
+</body>
+</html>
